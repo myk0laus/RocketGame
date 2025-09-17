@@ -13,7 +13,7 @@ public class Finish : MonoBehaviour
         {
             UnlockLevel();
             _finishParticles.Play();
-            Debug.Log(PlayerPrefs.GetInt(_levelPrefsName));
+            Debug.Log("Opened level" + PlayerPrefs.GetInt(_levelPrefsName));
         }
     }
 

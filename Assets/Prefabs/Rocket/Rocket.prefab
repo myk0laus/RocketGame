@@ -914,6 +914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _powerUp: 1000
   _turningSpeed: 500
+  _collisionHandler: {fileID: 8654767530817420698}
 --- !u!114 &7129316147698514637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,7 +946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _crashParticles: {fileID: 8654301299960540213}
-  _winParticles: {fileID: 0}
   _collectAnItemParticles: {fileID: 1393547568}
 --- !u!114 &7479660723590416199
 MonoBehaviour:

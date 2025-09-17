@@ -15,7 +15,6 @@ public class Movement : MonoBehaviour
         set => _canPush = value;
     }
         
-
     void Start()
     {
         _rb = GetComponent<Rigidbody>();

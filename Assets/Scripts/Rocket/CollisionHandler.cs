@@ -16,7 +16,7 @@ public class CollisionHandler : MonoBehaviour
         {
             Finished?.Invoke();
             DisableMovement();
-            LevelOpener.UnlockLevel();
+            //LevelOpener.UnlockLevel();
         }
 
         if (collision.collider.GetComponent<Obstacle>())
